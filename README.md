@@ -12,5 +12,5 @@ For the function y' = f(x, y) = 0.2*x*y with y(1) = 2 and a step of 0.05
 We compute y(1.5)
 
 ```hs
-*Main> rk2 (\x y -> 0.2*x*y) 1 2 1.5 0.005
+*Main> rk2 (\x y -> 0.2*x*y) 1 2 1.5 0.05
 ```
